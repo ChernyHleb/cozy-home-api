@@ -1,0 +1,27 @@
+{
+  "name": "cozy-home-api",
+  "version": "1.0.0",
+  "description": "api for communication between client and data server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChernyHleb/cozy-home-api.git"
+  },
+  "keywords": [
+    "rest",
+    "api"
+  ],
+  "author": "Nikita Tkach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChernyHleb/cozy-home-api/issues"
+  },
+  "homepage": "https://github.com/ChernyHleb/cozy-home-api#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
