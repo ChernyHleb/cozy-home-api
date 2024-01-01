@@ -1,10 +1,14 @@
 const express = require('express');
 const app = express();
 
-app.use((req, res, next) => {
-    res.status(200).json({
-        message: 'Hello world!'
-    });
-});  
+const plantRoutes = require("./api/routes/plants");
 
-module.exports = app;
+// app.use((req, res, next) => {
+//     res.status(200).json({
+//         message: 'Hello world!'
+//     });
+// });  
+
+app.use('/plants', plantRoutes);
+
+module.exports = app; 
